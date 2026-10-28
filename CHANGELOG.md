@@ -1,3 +1,7 @@
+## Unreleased (hobonichi fork)
+
+* Android: Update `androidx.health.connect:connect-client` to 1.2.0-alpha03, which defers record validation to the platform on Android 14+ so that a stored record with `startTime == endTime` no longer makes `readRecords` throw and empty the whole type - [carp-dk #513](https://github.com/carp-dk/carp-health-flutter/issues/513)
+
 ## 13.3.1
 
 * iOS: Fix issues with app crashing on iOS 15
